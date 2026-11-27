@@ -8,7 +8,7 @@
     ],
     "mainImage": {
       "file": "images/main.png",
-      "alt": "Imperial Units: Fuuz title card"
+      "alt": "Imperial Units: Fuuz cover"
     },
     "description": [
       "A Fuuz package containing Imperial (US Customary) units of measure, unit types, and unit conversions for the Fuuz platform.",
