@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "visibility": "public",
+  "overview": {
+    "tagline": "Including all Imperial UoM and their conversions for your Fuuz Apps",
+    "categories": [
+      "Units of measure"
+    ],
+    "mainImage": {
+      "file": "images/main.png",
+      "alt": "Imperial Units: Fuuz title card"
+    },
+    "description": [
+      "A Fuuz package containing Imperial (US Customary) units of measure, unit types, and unit conversions for the Fuuz platform.",
+      "ImperialUnits@1.0.0.fuuz is a Fuuz platform package that provides a complete set of Imperial-only units of measure for use in any Fuuz application. It seeds three core data models — UnitType, Unit, and UnitConversion — giving your application a US Customary / Imperial measurement system out of the box. This package excludes SI / metric units, making it ideal for environments that operate exclusively with the Imperial system."
+    ],
+    "highlights": [
+      {
+        "title": "83 Imperial units",
+        "body": "Units of measure and unit types for the Imperial (US Customary) system only."
+      },
+      {
+        "title": "364 conversions",
+        "body": "Pre-built conversion factors between Imperial units."
+      },
+      {
+        "title": "Replaces the default units",
+        "body": "A fuller unit system than the platform's default seed data, for new Fuuz applications."
+      }
+    ],
+    "screenshots": []
+  },
+  "pricing": {
+    "model": "free",
+    "detail": "Fuuz accelerators are no cost; you pay only for the Fuuz runtime."
+  },
+  "support": {
+    "email": "sales@fuuz.com",
+    "url": "https://github.com/Fuuz-Platform/package-imperial-units",
+    "sla": "No service level agreement. Supported once implemented by a Fuuz services professional or an approved Fuuz partner.",
+    "phone": ""
+  },
+  "security": {
+    "residency": "In the customer's Fuuz environment",
+    "external": false,
+    "externalDetail": "",
+    "certs": "",
+    "notes": ""
+  },
+  "install": {
+    "prerequisites": [
+      "Fuuz 2026.2.1.782 or later",
+      "Delete the platform's default unit seed data first, or the import conflicts with it.",
+      "Run deleteUnitConversion, then deleteUnit, then deleteUnitType, from deleteSeededUnitData.graphql in the repo. Check the IDs match your environment."
+    ],
+    "steps": [
+      {
+        "text": "Import ImperialUnits@1.0.0.fuuz into your Fuuz application and confirm the import preview."
+      }
+    ],
+    "after": ""
+  }
+}
